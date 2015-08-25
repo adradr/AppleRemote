@@ -40,7 +40,7 @@
  */
 #include <inttypes.h>
 #include <avr/io.h>
-#include "Arduino.h"
+// #include "Arduino.h"
 
 //suffix that all remotes use.
 #define APPLE_ID 0x87EE
