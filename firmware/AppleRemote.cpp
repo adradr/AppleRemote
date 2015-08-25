@@ -9,8 +9,8 @@
  */
 
 
-#include "WProgram.h"
-#include "AppleRemoteSender.h"
+#include "Arduino.h"
+#include "AppleRemote.h"
 
 
 AppleRemoteSender::AppleRemoteSender(int pin)
