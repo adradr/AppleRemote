@@ -1,6 +1,6 @@
 {
     "name": "AppleRemote",
-    "version": "1.0",
+    "version": "0.0.1",
     "author": "Casey Callendrello <c1@caseyc.net>",
     "license": "GPL v2",
     "description": "Apple Remote IR library"
