@@ -39,8 +39,22 @@
  
  */
 #include <inttypes.h>
-//#include <avr/io.h>
+// #include <avr/io.h>
 // #include "Arduino.h"
+#if defined (SPARK) // Used these ported libraries - https://github.com/harrisonhjones/Spark-Ported-Libraries
+  #include "application.h"
+#else
+  #if defined(ARDUINO) && ARDUINO >= 100
+    #include "Arduino.h"
+  #else
+    #include "WProgram.h"
+  #endif
+  // here could follow some of the includes only needed on Arduino
+  // see bellow
+
+#endif
+
+
 
 //suffix that all remotes use.
 #define APPLE_ID 0x87EE
